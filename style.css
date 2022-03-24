@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    background: black;
+}
+.content__google{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content__google .logo{
+    width: 297px;
+    height: 100px;   
+}
+nav ul{
+     display: flex;
+     list-style: none;
+     align-items: center;
+     justify-content: end;
+     gap: 2rem ;
+     margin: 2rem;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.content__google .input__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content__google .input__content img{
+    width: 1rem;
+    height:max-content
+}
+.content__google .input__content input{
+    width: 40rem;
+    height: 3rem;
+    border-radius: 2rem;
+}
